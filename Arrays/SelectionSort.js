@@ -3,10 +3,10 @@ const selectionSort = (arr) => {
     let minIndx = i;
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[j] < arr[minIndx]) {
-        midIndx = j;
+        minIndx = j;
       }
     }
-    [arr[i], arr[midIndx]] = [arr[midIndx], arr[i]];
+    [arr[i], arr[minIndx]] = [arr[minIndx], arr[i]];
   }
   return arr;
 };
