@@ -11,6 +11,7 @@ import { firstNegativeNumber } from "./firstNegativeNumberInEveryWindow.ts";
 import { countOccurrenceAnagram } from "./countOccurrenceOfAnagram.ts";
 import { maximumSumOfDistinct } from "./maximumSumOfDistinct.ts";
 import { KRadiusSubarrayAverage } from "./KRadiusSubarrayAverage.ts";
+import { averageGreaterEqualThreshold } from "./AverageGEThreshold.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -64,4 +65,9 @@ console.log(
 console.log(
   "K Radius Subarray Averages: ",
   KRadiusSubarrayAverage([7, 4, 3, 9, 1, 8, 5, 2, 6], 3),
+);
+
+console.log(
+  "Number of Subarray of Size K with Average ≥ Threshold: ",
+  averageGreaterEqualThreshold([2, 2, 2, 2, 5, 5, 5, 8], 3, 4),
 );
