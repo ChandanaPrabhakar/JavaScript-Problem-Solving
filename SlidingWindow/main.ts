@@ -12,6 +12,7 @@ import { countOccurrenceAnagram } from "./countOccurrenceOfAnagram.ts";
 import { maximumSumOfDistinct } from "./maximumSumOfDistinct.ts";
 import { KRadiusSubarrayAverage } from "./KRadiusSubarrayAverage.ts";
 import { averageGreaterEqualThreshold } from "./AverageGEThreshold.ts";
+import { maximumPointsObtainedCards } from "./MaximumPoints.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -70,4 +71,9 @@ console.log(
 console.log(
   "Number of Subarray of Size K with Average ≥ Threshold: ",
   averageGreaterEqualThreshold([2, 2, 2, 2, 5, 5, 5, 8], 3, 4),
+);
+
+console.log(
+  "Maximum Points You Can Obtain from Cards: ",
+  maximumPointsObtainedCards([1, 2, 3, 4, 5, 6, 1], 3),
 );
