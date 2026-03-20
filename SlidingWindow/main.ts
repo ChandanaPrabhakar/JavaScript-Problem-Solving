@@ -1,0 +1,67 @@
+import { findAllAnagram } from "./AllAnagramInString.ts";
+import { averageOfSubarray } from "./averageSubarraySum.ts";
+import { maximumNumberOfVowels } from "./maximumNumberOfVowels.ts";
+import { maximumSubarraySum } from "./MaximumSubarraySum.ts";
+import { slidingWindowMaximum } from "./slidingWindowMaximum.ts";
+import {
+  subarrayWithGivenSum,
+  subarrayWithGivenSumNonNegative,
+} from "./subarrayGivenSum.ts";
+import { firstNegativeNumber } from "./firstNegativeNumberInEveryWindow.ts";
+import { countOccurrenceAnagram } from "./countOccurrenceOfAnagram.ts";
+import { maximumSumOfDistinct } from "./maximumSumOfDistinct.ts";
+import { KRadiusSubarrayAverage } from "./KRadiusSubarrayAverage.ts";
+
+console.log(
+  "Maximum subarray sum of size K: ",
+  maximumSubarraySum([2, 1, 5, 1, 3, 2], 3),
+);
+console.log(
+  "Average of subarray of size K:",
+  averageOfSubarray([1, 3, 2, 6, -1, 4, 1, 8, 2], 5),
+);
+
+console.log(
+  "Find all anagram in a string:",
+  findAllAnagram("cbaebabacd", "abc"),
+);
+
+console.log(
+  "Sliding Window Maximum: ",
+  slidingWindowMaximum([1, 3, -1, -3, 5, 3, 6, 7], 3),
+);
+
+console.log(
+  "Maximum Number of Vowels in Substring: ",
+  maximumNumberOfVowels("abciiidef", 3),
+);
+
+console.log(
+  "Subarray with Given Sum",
+  subarrayWithGivenSum([15, 2, 4, 8, 9, 5, 10, 23], 23),
+);
+
+console.log(
+  "Subarray with Given Sum -> Non Negative",
+  subarrayWithGivenSumNonNegative([15, 2, 4, 8, 9, 5, 10, 23], 23),
+);
+
+console.log(
+  "First Negative Number in Every Window",
+  firstNegativeNumber([12, -1, -7, 8, -15, 30, 16, 28], 3),
+);
+
+console.log(
+  "Count Occurrences of Anagrams",
+  countOccurrenceAnagram("forxxorfxdofr", "for"),
+);
+
+console.log(
+  "Maximum Sum of Distinct Subarray With Length K: ",
+  maximumSumOfDistinct([1, 5, 4, 2, 9, 9, 9], 3),
+);
+
+console.log(
+  "K Radius Subarray Averages: ",
+  KRadiusSubarrayAverage([7, 4, 3, 9, 1, 8, 5, 2, 6], 3),
+);
