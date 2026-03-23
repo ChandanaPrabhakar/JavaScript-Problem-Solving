@@ -16,6 +16,7 @@ import { maximumPointsObtainedCards } from "./MaximumPoints.ts";
 import { defuseBomb } from "./defuseTheBomb.ts";
 import { grumpyOwner } from "./grumpyBookstoreOwner.ts";
 import { dietPlan } from "./dietPlanPerformance.ts";
+import { minimumDifference } from "./minimumDifferenceHighestLowest.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -89,3 +90,8 @@ console.log(
 );
 
 console.log("Diet Plan Performance: ", dietPlan([1, 2, 3, 4, 5], 1, 3, 3));
+
+console.log(
+  "Minimum Difference Between Highest and Lowest of K Scores: ",
+  minimumDifference([9, 4, 1, 7], 2),
+);
