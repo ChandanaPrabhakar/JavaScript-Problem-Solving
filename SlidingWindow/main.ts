@@ -22,6 +22,7 @@ import { maximumSumCircularSubarray } from "./maximumSumCircularSubarray.ts";
 import { getEqualSubstring } from "./getEqualSubstringWithBudget.ts";
 import { minimumSwaps } from "./minimumSwapsToGroupAll1s.ts";
 import { longestSubstring } from "./longestSubstringWithoutRepeating.ts";
+import { longestRepeatingReplacement } from "./longestRepeatingCharacterReplacement.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -124,4 +125,9 @@ console.log(
 console.log(
   "Longest Substring Without Repeating Characters: ",
   longestSubstring("abcabcbb"),
+);
+
+console.log(
+  "Longest Repeating Character Replacement: ",
+  longestRepeatingReplacement("AABABBA", 1),
 );
