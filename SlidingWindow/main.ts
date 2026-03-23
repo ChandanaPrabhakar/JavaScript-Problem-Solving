@@ -14,6 +14,7 @@ import { KRadiusSubarrayAverage } from "./KRadiusSubarrayAverage.ts";
 import { averageGreaterEqualThreshold } from "./AverageGEThreshold.ts";
 import { maximumPointsObtainedCards } from "./MaximumPoints.ts";
 import { defuseBomb } from "./defuseTheBomb.ts";
+import { grumpyOwner } from "./grumpyBookstoreOwner.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -80,3 +81,8 @@ console.log(
 );
 
 console.log("Defuse the Bomb: ", defuseBomb([5, 7, 1, 4], 3));
+
+console.log(
+  "Grumpy Bookstore Owner: ",
+  grumpyOwner([1, 0, 1, 2, 1, 1, 7, 5], [0, 1, 0, 1, 0, 1, 0, 1], 3),
+);
