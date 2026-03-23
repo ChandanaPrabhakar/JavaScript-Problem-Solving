@@ -7,7 +7,7 @@ export function grumpyOwner(
 ): number {
   let base: number = 0;
   for (let index = 0; index < customers.length; index++) {
-    if (grumpy[index] === 1) {
+    if (grumpy[index] === 0) {
       base += customers[index];
     }
   }
@@ -16,7 +16,7 @@ export function grumpyOwner(
   let maxExtra: number = 0;
 
   for (let index = 0; index < customers.length; index++) {
-    if (grumpy[index] === 0) {
+    if (grumpy[index] === 1) {
       extra += customers[index];
     }
 
