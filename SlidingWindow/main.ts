@@ -13,6 +13,7 @@ import { maximumSumOfDistinct } from "./maximumSumOfDistinct.ts";
 import { KRadiusSubarrayAverage } from "./KRadiusSubarrayAverage.ts";
 import { averageGreaterEqualThreshold } from "./AverageGEThreshold.ts";
 import { maximumPointsObtainedCards } from "./MaximumPoints.ts";
+import { defuseBomb } from "./defuseTheBomb.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -77,3 +78,5 @@ console.log(
   "Maximum Points You Can Obtain from Cards: ",
   maximumPointsObtainedCards([1, 2, 3, 4, 5, 6, 1], 3),
 );
+
+console.log("Defuse the Bomb: ", defuseBomb([5, 7, 1, 4], 3));
