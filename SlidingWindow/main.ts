@@ -15,6 +15,7 @@ import { averageGreaterEqualThreshold } from "./AverageGEThreshold.ts";
 import { maximumPointsObtainedCards } from "./MaximumPoints.ts";
 import { defuseBomb } from "./defuseTheBomb.ts";
 import { grumpyOwner } from "./grumpyBookstoreOwner.ts";
+import { dietPlan } from "./dietPlanPerformance.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -86,3 +87,5 @@ console.log(
   "Grumpy Bookstore Owner: ",
   grumpyOwner([1, 0, 1, 2, 1, 1, 7, 5], [0, 1, 0, 1, 0, 1, 0, 1], 3),
 );
+
+console.log("Diet Plan Performance: ", dietPlan([1, 2, 3, 4, 5], 1, 3, 3));
