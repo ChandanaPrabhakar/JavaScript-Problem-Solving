@@ -18,6 +18,7 @@ import { grumpyOwner } from "./grumpyBookstoreOwner.ts";
 import { dietPlan } from "./dietPlanPerformance.ts";
 import { minimumDifference } from "./minimumDifferenceHighestLowest.ts";
 import { countSubarrayScore } from "./countSubarrayWithScoreLK.ts";
+import { maximumSumCircularSubarray } from "./maximumSumCircularSubarray.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -100,4 +101,9 @@ console.log(
 console.log(
   "Count Subarray With Score < K: ",
   countSubarrayScore([2, 1, 4, 3, 5], 10),
+);
+
+console.log(
+  "Maximum Sum Circular Subarray (window variant): ",
+  maximumSumCircularSubarray([1, -2, 3, -2], 3),
 );
