@@ -20,6 +20,7 @@ import { minimumDifference } from "./minimumDifferenceHighestLowest.ts";
 import { countSubarrayScore } from "./countSubarrayWithScoreLK.ts";
 import { maximumSumCircularSubarray } from "./maximumSumCircularSubarray.ts";
 import { getEqualSubstring } from "./getEqualSubstringWithBudget.ts";
+import { minimumSwaps } from "./minimumSwapsToGroupAll1s.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -112,4 +113,9 @@ console.log(
 console.log(
   "Get Equal Substrings Within Budget: ",
   getEqualSubstring("abcd", "bcdf", 3),
+);
+
+console.log(
+  "Minimum Swaps to Group All 1's Together: ",
+  minimumSwaps([1, 0, 1, 0, 1]),
 );
