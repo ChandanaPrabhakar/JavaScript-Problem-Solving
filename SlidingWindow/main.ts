@@ -19,6 +19,7 @@ import { dietPlan } from "./dietPlanPerformance.ts";
 import { minimumDifference } from "./minimumDifferenceHighestLowest.ts";
 import { countSubarrayScore } from "./countSubarrayWithScoreLK.ts";
 import { maximumSumCircularSubarray } from "./maximumSumCircularSubarray.ts";
+import { getEqualSubstring } from "./getEqualSubstringWithBudget.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -106,4 +107,9 @@ console.log(
 console.log(
   "Maximum Sum Circular Subarray (window variant): ",
   maximumSumCircularSubarray([1, -2, 3, -2], 3),
+);
+
+console.log(
+  "Get Equal Substrings Within Budget: ",
+  getEqualSubstring("abcd", "bcdf", 3),
 );
