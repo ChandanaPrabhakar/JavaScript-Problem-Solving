@@ -40,6 +40,7 @@ import { minimumSubarraySum } from "./minimumSizeSubarraySum.ts";
 import { longestContinuousSubarray } from "./longestContinuousSubarrayWithAbsoluteDiffLELimit.ts";
 import { maximumEraseValue } from "./maximumEraseValue.ts";
 import { longestSubarrayAfterDeleting } from "./longestSubarrayOfOnesAfterDeletingOneElement.ts";
+import { longestOnesWithKFlip } from "./longestOnesWithKFlip.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -213,4 +214,12 @@ console.log("Maximum Erasure Value: ", maximumEraseValue([4, 2, 4, 5, 6]));
 console.log(
   "Longest Subarray of 1s After Deleting One Element: ",
   longestSubarrayAfterDeleting([0, 1, 1, 1, 0, 1, 1, 0, 1]),
+);
+
+console.log(
+  "Longest Ones with K Flips: ",
+  longestOnesWithKFlip(
+    [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1],
+    3,
+  ),
 );
