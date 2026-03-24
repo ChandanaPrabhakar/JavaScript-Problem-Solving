@@ -35,6 +35,7 @@ import {
   binarySubarrayWithSum,
   binarySubarrayWithSumPrefixHash,
 } from "./binarySubarrayWithSum.ts";
+import { subarrayProduct } from "./subarrayProductLessThanK.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -186,4 +187,9 @@ console.log(
 console.log(
   "Binary Subarray With Sum (prefix + HashMap): ",
   binarySubarrayWithSumPrefixHash([0, 0, 0, 0, 0], 0),
+);
+
+console.log(
+  "Subarray Product Less Than K: ",
+  subarrayProduct([10, 5, 2, 6], 100),
 );
