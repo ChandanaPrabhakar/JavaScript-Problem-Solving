@@ -29,6 +29,7 @@ import { longestSubstringAtmost } from "./longestSunstringAtmostKDistinct.ts";
 import { longestSubstringAtmostTwoDistinct } from "./longestSubstringWithAtmostTwoDistinct.ts";
 import { fruitIntoBasket } from "./fruitIntoBasket.ts";
 import { subarrayDistinctInteger } from "./subarrayWithKDistinctInteger.ts";
+import { numberSubstringsContainingAllThreeCharacters } from "./numberOfSubstringsContainingAllThreeCharacters.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -160,4 +161,9 @@ console.log("Fruit Into Baskets: ", fruitIntoBasket([1, 2, 3, 2, 2]));
 console.log(
   "Subarray with K Distinct Integers: ",
   subarrayDistinctInteger([1, 2, 1, 2, 3], 2),
+);
+
+console.log(
+  "Number of Substrings Containing All Three Characters: ",
+  numberSubstringsContainingAllThreeCharacters("abcabc"),
 );
