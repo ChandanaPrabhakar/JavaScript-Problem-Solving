@@ -38,6 +38,7 @@ import {
 import { subarrayProduct } from "./subarrayProductLessThanK.ts";
 import { minimumSubarraySum } from "./minimumSizeSubarraySum.ts";
 import { longestContinuousSubarray } from "./longestContinuousSubarrayWithAbsoluteDiffLELimit.ts";
+import { maximumEraseValue } from "./maximumEraseValue.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -205,3 +206,5 @@ console.log(
   "Longest Continuous Subarray With Absolute Diff ≤ Limit: ",
   longestContinuousSubarray([10, 1, 2, 4, 7, 2], 5),
 );
+
+console.log("Maximum Erasure Value: ", maximumEraseValue([4, 2, 4, 5, 6]));
