@@ -28,6 +28,7 @@ import { stringPermutation } from "./permutationInString.ts";
 import { longestSubstringAtmost } from "./longestSunstringAtmostKDistinct.ts";
 import { longestSubstringAtmostTwoDistinct } from "./longestSubstringWithAtmostTwoDistinct.ts";
 import { fruitIntoBasket } from "./fruitIntoBasket.ts";
+import { subarrayDistinctInteger } from "./subarrayWithKDistinctInteger.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -155,3 +156,8 @@ console.log(
 );
 
 console.log("Fruit Into Baskets: ", fruitIntoBasket([1, 2, 3, 2, 2]));
+
+console.log(
+  "Subarray with K Distinct Integers: ",
+  subarrayDistinctInteger([1, 2, 1, 2, 3], 2),
+);
