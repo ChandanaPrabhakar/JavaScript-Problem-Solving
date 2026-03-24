@@ -30,6 +30,7 @@ import { longestSubstringAtmostTwoDistinct } from "./longestSubstringWithAtmostT
 import { fruitIntoBasket } from "./fruitIntoBasket.ts";
 import { subarrayDistinctInteger } from "./subarrayWithKDistinctInteger.ts";
 import { numberSubstringsContainingAllThreeCharacters } from "./numberOfSubstringsContainingAllThreeCharacters.ts";
+import { countNumberofNiceSubarray } from "./countNumberOfNiceSubarray.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -166,4 +167,9 @@ console.log(
 console.log(
   "Number of Substrings Containing All Three Characters: ",
   numberSubstringsContainingAllThreeCharacters("abcabc"),
+);
+
+console.log(
+  "Count Number of Nice Subarray: ",
+  countNumberofNiceSubarray([2, 2, 2, 1, 2, 2, 1, 2, 2, 2], 2),
 );
