@@ -37,6 +37,7 @@ import {
 } from "./binarySubarrayWithSum.ts";
 import { subarrayProduct } from "./subarrayProductLessThanK.ts";
 import { minimumSubarraySum } from "./minimumSizeSubarraySum.ts";
+import { longestContinuousSubarray } from "./longestContinuousSubarrayWithAbsoluteDiffLELimit.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -198,4 +199,9 @@ console.log(
 console.log(
   "Minimum Size Subarray Sum: ",
   minimumSubarraySum([2, 3, 1, 2, 4, 3], 7),
+);
+
+console.log(
+  "Longest Continuous Subarray With Absolute Diff ≤ Limit: ",
+  longestContinuousSubarray([10, 1, 2, 4, 7, 2], 5),
 );
