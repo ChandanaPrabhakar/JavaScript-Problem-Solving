@@ -41,6 +41,7 @@ import { longestContinuousSubarray } from "./longestContinuousSubarrayWithAbsolu
 import { maximumEraseValue } from "./maximumEraseValue.ts";
 import { longestSubarrayAfterDeleting } from "./longestSubarrayOfOnesAfterDeletingOneElement.ts";
 import { longestOnesWithKFlip } from "./longestOnesWithKFlip.ts";
+import { replaceSubstringForBalancedString } from "./replaceSubstringForBalancedString.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -222,4 +223,9 @@ console.log(
     [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1],
     3,
   ),
+);
+
+console.log(
+  "Replace the Substring for Balanced String: ",
+  replaceSubstringForBalancedString("QQQW"),
 );
