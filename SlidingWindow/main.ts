@@ -23,6 +23,7 @@ import { getEqualSubstring } from "./getEqualSubstringWithBudget.ts";
 import { minimumSwaps } from "./minimumSwapsToGroupAll1s.ts";
 import { longestSubstring } from "./longestSubstringWithoutRepeating.ts";
 import { longestRepeatingReplacement } from "./longestRepeatingCharacterReplacement.ts";
+import { minimumWindowSubstring } from "./minimumWindowSubstring.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -130,4 +131,9 @@ console.log(
 console.log(
   "Longest Repeating Character Replacement: ",
   longestRepeatingReplacement("AABABBA", 1),
+);
+
+console.log(
+  "Minimum Window Substring: ",
+  minimumWindowSubstring("ADOBECODEBANC", "ABC"),
 );
