@@ -27,6 +27,7 @@ import { minimumWindowSubstring } from "./minimumWindowSubstring.ts";
 import { stringPermutation } from "./permutationInString.ts";
 import { longestSubstringAtmost } from "./longestSunstringAtmostKDistinct.ts";
 import { longestSubstringAtmostTwoDistinct } from "./longestSubstringWithAtmostTwoDistinct.ts";
+import { fruitIntoBasket } from "./fruitIntoBasket.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -152,3 +153,5 @@ console.log(
   "Longest Substring with At Most Two Distinct: ",
   longestSubstringAtmostTwoDistinct("mississippi"),
 );
+
+console.log("Fruit Into Baskets: ", fruitIntoBasket([1, 2, 3, 2, 2]));
