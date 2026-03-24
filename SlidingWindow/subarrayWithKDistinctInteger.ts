@@ -1,6 +1,6 @@
 // Subarray with K Distinct Integers
 function atmostK(nums: number[], k: number): number {
-  let maximumLength: number = 0;
+  let count: number = 0;
   let start: number = 0;
 
   const map = new Map<number, number>();
@@ -19,9 +19,9 @@ function atmostK(nums: number[], k: number): number {
       start++;
     }
 
-    maximumLength = Math.max(maximumLength, end - start + 1);
+    count += end - start + 1;
   }
-  return maximumLength;
+  return count;
 }
 
 export function subarrayDistinctInteger(arr: number[], k: number): number {
