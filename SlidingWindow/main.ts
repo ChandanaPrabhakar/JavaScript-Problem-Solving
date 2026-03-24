@@ -31,6 +31,10 @@ import { fruitIntoBasket } from "./fruitIntoBasket.ts";
 import { subarrayDistinctInteger } from "./subarrayWithKDistinctInteger.ts";
 import { numberSubstringsContainingAllThreeCharacters } from "./numberOfSubstringsContainingAllThreeCharacters.ts";
 import { countNumberofNiceSubarray } from "./countNumberOfNiceSubarray.ts";
+import {
+  binarySubarrayWithSum,
+  binarySubarrayWithSumPrefixHash,
+} from "./binarySubarrayWithSum.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -172,4 +176,14 @@ console.log(
 console.log(
   "Count Number of Nice Subarray: ",
   countNumberofNiceSubarray([2, 2, 2, 1, 2, 2, 1, 2, 2, 2], 2),
+);
+
+console.log(
+  "Binary Subarray With Sum (Sliding Window): ",
+  binarySubarrayWithSum([0, 0, 0, 0, 0], 0),
+);
+
+console.log(
+  "Binary Subarray With Sum (prefix + HashMap): ",
+  binarySubarrayWithSumPrefixHash([0, 0, 0, 0, 0], 0),
 );
