@@ -42,6 +42,7 @@ import { maximumEraseValue } from "./maximumEraseValue.ts";
 import { longestSubarrayAfterDeleting } from "./longestSubarrayOfOnesAfterDeletingOneElement.ts";
 import { longestOnesWithKFlip } from "./longestOnesWithKFlip.ts";
 import { replaceSubstringForBalancedString } from "./replaceSubstringForBalancedString.ts";
+import { minimumSwapsMakeBinaryStringAlternating } from "./minimumSwapsToMakeBinaryStringAlternating.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -228,4 +229,9 @@ console.log(
 console.log(
   "Replace the Substring for Balanced String: ",
   replaceSubstringForBalancedString("QQQW"),
+);
+
+console.log(
+  "Minimum Swaps to Make Binary String Alternating: ",
+  minimumSwapsMakeBinaryStringAlternating("111000"),
 );
