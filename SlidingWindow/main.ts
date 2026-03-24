@@ -26,6 +26,7 @@ import { longestRepeatingReplacement } from "./longestRepeatingCharacterReplacem
 import { minimumWindowSubstring } from "./minimumWindowSubstring.ts";
 import { stringPermutation } from "./permutationInString.ts";
 import { longestSubstringAtmost } from "./longestSunstringAtmostKDistinct.ts";
+import { longestSubstringAtmostTwoDistinct } from "./longestSubstringWithAtmostTwoDistinct.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -145,4 +146,9 @@ console.log("Permutation in String: ", stringPermutation("ab", "eidbaooo"));
 console.log(
   "Longest Substring with At Most K Distinct Characters: ",
   longestSubstringAtmost("ecebaaa", 2),
+);
+
+console.log(
+  "Longest Substring with At Most Two Distinct: ",
+  longestSubstringAtmostTwoDistinct("mississippi"),
 );
