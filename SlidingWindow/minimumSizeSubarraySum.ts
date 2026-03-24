@@ -12,5 +12,5 @@ export function minimumSubarraySum(nums: number[], target: number): number {
       start++;
     }
   }
-  return minimumLength;
+  return minimumLength === Infinity ? 0 : minimumLength;
 }
