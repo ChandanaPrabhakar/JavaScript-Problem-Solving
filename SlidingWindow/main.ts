@@ -24,6 +24,7 @@ import { minimumSwaps } from "./minimumSwapsToGroupAll1s.ts";
 import { longestSubstring } from "./longestSubstringWithoutRepeating.ts";
 import { longestRepeatingReplacement } from "./longestRepeatingCharacterReplacement.ts";
 import { minimumWindowSubstring } from "./minimumWindowSubstring.ts";
+import { stringPermutation } from "./permutationInString.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -137,3 +138,5 @@ console.log(
   "Minimum Window Substring: ",
   minimumWindowSubstring("ADOBECODEBANC", "ABC"),
 );
+
+console.log("Permutation in String: ", stringPermutation("ab", "eidbaooo"));
