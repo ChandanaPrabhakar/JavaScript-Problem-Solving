@@ -7,7 +7,7 @@ export function maximumEraseValue(nums: number[]): number {
   const set = new Set<number>();
 
   for (let end = 0; end < nums.length; end++) {
-    if (set.has(nums[end])) {
+    while (set.has(nums[end])) {
       set.delete(nums[start]);
       currentSum -= nums[start];
       start++;
