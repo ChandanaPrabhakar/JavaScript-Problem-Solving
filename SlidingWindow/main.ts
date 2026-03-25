@@ -45,6 +45,7 @@ import { replaceSubstringForBalancedString } from "./replaceSubstringForBalanced
 import { minimumSwapsMakeBinaryStringAlternating } from "./minimumSwapsToMakeBinaryStringAlternating.ts";
 import { groupAnagrams } from "./groupAnagrams.ts";
 import { longestSubstringWithKDistinct } from "./longestSubstringWithKDistinct.ts";
+import { countSubstringsWithoutRepeatingChar } from "./countSubstringsWithoutRepeatingCharacter.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -246,4 +247,9 @@ console.log(
 console.log(
   "Longest Substring with K Distinct: ",
   longestSubstringWithKDistinct("eceba", 2),
+);
+
+console.log(
+  "Count Substrings Without Repeating Characters: ",
+  countSubstringsWithoutRepeatingChar("abc"),
 );
