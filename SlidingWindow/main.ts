@@ -51,6 +51,7 @@ import { longestSubstringWithExactlyKDistinct } from "./longestSubstringWithExac
 import { shortestSubarrayWithSumAtleastK } from "./shortestSubarrayWithSumLEK.ts";
 import { constrainedSubsequenceSum } from "./constrainedSubsequenceSum.ts";
 import { jumpGameVI } from "./jumpGameVI.ts";
+import { maximumRobotsWithinBudget } from "./maximumRobotsWithinBudget.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -280,3 +281,8 @@ console.log(
 );
 
 console.log("Jump Game VI: ", jumpGameVI([1, -1, -2, 4, -7, 3], 2));
+
+console.log(
+  "Maximum Robots Within Budget: ",
+  maximumRobotsWithinBudget([11, 12, 19], [10, 8, 7], 19),
+);
