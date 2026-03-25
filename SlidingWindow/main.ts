@@ -50,6 +50,7 @@ import { countDistinctElementInEveryWindow } from "./countDistinctElementInEvery
 import { longestSubstringWithExactlyKDistinct } from "./longestSubstringWithExactlyKDistinct.ts";
 import { shortestSubarrayWithSumAtleastK } from "./shortestSubarrayWithSumLEK.ts";
 import { constrainedSubsequenceSum } from "./constrainedSubsequenceSum.ts";
+import { jumpGameVI } from "./jumpGameVI.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -277,3 +278,5 @@ console.log(
   "Constrained Subsequence Sum: ",
   constrainedSubsequenceSum([10, 2, -10, 5, 20], 2),
 );
+
+console.log("Jump Game VI: ", jumpGameVI([1, -1, -2, 4, -7, 3], 2));
