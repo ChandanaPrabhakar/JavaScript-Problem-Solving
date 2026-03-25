@@ -43,6 +43,7 @@ import { longestSubarrayAfterDeleting } from "./longestSubarrayOfOnesAfterDeleti
 import { longestOnesWithKFlip } from "./longestOnesWithKFlip.ts";
 import { replaceSubstringForBalancedString } from "./replaceSubstringForBalancedString.ts";
 import { minimumSwapsMakeBinaryStringAlternating } from "./minimumSwapsToMakeBinaryStringAlternating.ts";
+import { groupAnagrams } from "./groupAnagrams.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -234,4 +235,9 @@ console.log(
 console.log(
   "Minimum Swaps to Make Binary String Alternating: ",
   minimumSwapsMakeBinaryStringAlternating("111000"),
+);
+
+console.log(
+  "Group Anagrams (window variant): ",
+  groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]),
 );
