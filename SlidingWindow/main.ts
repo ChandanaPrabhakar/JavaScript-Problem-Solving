@@ -44,6 +44,7 @@ import { longestOnesWithKFlip } from "./longestOnesWithKFlip.ts";
 import { replaceSubstringForBalancedString } from "./replaceSubstringForBalancedString.ts";
 import { minimumSwapsMakeBinaryStringAlternating } from "./minimumSwapsToMakeBinaryStringAlternating.ts";
 import { groupAnagrams } from "./groupAnagrams.ts";
+import { longestSubstringWithKDistinct } from "./longestSubstringWithKDistinct.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -240,4 +241,9 @@ console.log(
 console.log(
   "Group Anagrams (window variant): ",
   groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]),
+);
+
+console.log(
+  "Longest Substring with K Distinct: ",
+  longestSubstringWithKDistinct("eceba", 2),
 );
