@@ -48,6 +48,7 @@ import { longestSubstringWithKDistinct } from "./longestSubstringWithKDistinct.t
 import { countSubstringsWithoutRepeatingChar } from "./countSubstringsWithoutRepeatingCharacter.ts";
 import { countDistinctElementInEveryWindow } from "./countDistinctElementInEveryWindow.ts";
 import { longestSubstringWithExactlyKDistinct } from "./longestSubstringWithExactlyKDistinct.ts";
+import { shortestSubarrayWithSumAtleastK } from "./shortestSubarrayWithSumLEK.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -264,4 +265,9 @@ console.log(
 console.log(
   "Longest Substring with Exactly K Unique Characters: ",
   longestSubstringWithExactlyKDistinct("aabacbebebe", 3),
+);
+
+console.log(
+  "Shortest Subarray with Sum ≥ K: ",
+  shortestSubarrayWithSumAtleastK([2, -1, 2], 3),
 );
