@@ -49,6 +49,7 @@ import { countSubstringsWithoutRepeatingChar } from "./countSubstringsWithoutRep
 import { countDistinctElementInEveryWindow } from "./countDistinctElementInEveryWindow.ts";
 import { longestSubstringWithExactlyKDistinct } from "./longestSubstringWithExactlyKDistinct.ts";
 import { shortestSubarrayWithSumAtleastK } from "./shortestSubarrayWithSumLEK.ts";
+import { constrainedSubsequenceSum } from "./constrainedSubsequenceSum.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -270,4 +271,9 @@ console.log(
 console.log(
   "Shortest Subarray with Sum ≥ K: ",
   shortestSubarrayWithSumAtleastK([2, -1, 2], 3),
+);
+
+console.log(
+  "Constrained Subsequence Sum: ",
+  constrainedSubsequenceSum([10, 2, -10, 5, 20], 2),
 );
