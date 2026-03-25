@@ -47,6 +47,7 @@ import { groupAnagrams } from "./groupAnagrams.ts";
 import { longestSubstringWithKDistinct } from "./longestSubstringWithKDistinct.ts";
 import { countSubstringsWithoutRepeatingChar } from "./countSubstringsWithoutRepeatingCharacter.ts";
 import { countDistinctElementInEveryWindow } from "./countDistinctElementInEveryWindow.ts";
+import { longestSubstringWithExactlyKDistinct } from "./longestSubstringWithExactlyKDistinct.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -258,4 +259,9 @@ console.log(
 console.log(
   "Count Distinct Elements in Every Window: ",
   countDistinctElementInEveryWindow([1, 2, 1, 3, 4, 2, 3], 4),
+);
+
+console.log(
+  "Longest Substring with Exactly K Unique Characters: ",
+  longestSubstringWithExactlyKDistinct("aabacbebebe", 3),
 );
