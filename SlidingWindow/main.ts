@@ -52,6 +52,8 @@ import { shortestSubarrayWithSumAtleastK } from "./shortestSubarrayWithSumLEK.ts
 import { constrainedSubsequenceSum } from "./constrainedSubsequenceSum.ts";
 import { jumpGameVI } from "./jumpGameVI.ts";
 import { maximumRobotsWithinBudget } from "./maximumRobotsWithinBudget.ts";
+import { slidingWindowMedian } from "./slidingWindowMedian.ts";
+import { maxValueOfEquation } from "./maxValueOfEquation.ts";
 
 console.log(
   "Maximum subarray sum of size K: ",
@@ -285,4 +287,22 @@ console.log("Jump Game VI: ", jumpGameVI([1, -1, -2, 4, -7, 3], 2));
 console.log(
   "Maximum Robots Within Budget: ",
   maximumRobotsWithinBudget([11, 12, 19], [10, 8, 7], 19),
+);
+
+console.log(
+  "Sliding Window Median: ",
+  slidingWindowMedian([1, 3, -1, -3, 5, 3, 6, 7], 3),
+);
+
+console.log(
+  "Max Value of Equation: ",
+  maxValueOfEquation(
+    [
+      [1, 3],
+      [2, 0],
+      [5, 10],
+      [6, -10],
+    ],
+    1,
+  ),
 );
